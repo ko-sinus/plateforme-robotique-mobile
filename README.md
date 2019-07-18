@@ -1,4 +1,4 @@
-# platforme-robotique-mobile
+# plateforme-robotique-mobile
 Prise en main de la plateforme robotique mobile de l'EMA.
 
 Suite a la MAJ de la plateforme en 2019, ce repertoire Github a ete cree afin de faciliter l'utilisation de la plateforme par les etudiants et les enseignants.
