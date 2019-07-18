@@ -1,4 +1,4 @@
-#platforme-robotique-mobile/prm_ws
+# prm_ws
 
 Ceci est le workspace ROS de la plateforme robotique mobile.
 Une fois ROS installe sur votre ordinateur fixe (je recommande fortement la version Kinetic), il vous faudra creer un workspace ROS.
