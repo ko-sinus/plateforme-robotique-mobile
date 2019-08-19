@@ -1,11 +1,11 @@
 # plateforme-robotique-mobile
 Prise en main de la plateforme robotique mobile de l'EMA.
 
-Suite a la MAJ de la plateforme en 2019, ce repertoire Github a ete cree afin de faciliter l'utilisation de la plateforme par les etudiants et les enseignants.
+Suite à la MAJ de la plateforme en juillet 2019, ce répertoire Github a été crée afin de faciliter l'utilisation de la plateforme par les étudiants et les enseignants.
 
-Vous pouvez ainsi retrouver le workspace ROS et son tutoriel, les modeles CAO de la plateforme et des capteurs, ainsi que chaque reference pouvant etre utile au bon fonctionnement et a la maintenance de la plateforme.
+Vous pouvez ainsi retrouver le workspace ROS et son tutoriel, les modèles CAO de la plateforme et des capteurs, ainsi que chaque reference pouvant être utile au bon fonctionnement et à la maintenance de la plateforme.
 
-Ce repertoire s'accompagne d'un dossier de conception et d'un dossier synthese de travaux d'etat de l'art sur la robotique mobile et ses problematiques.
+Ce répertoire s'accompagne d'un dossier de conception et d'un dossier synthèse de travaux d'état de l'art sur la robotique mobile et ses problematiques.
 
 
-Ces travaux ont ete realises dans le cadre d'un monitorat recherche, dispositif permettant a un etudiant en 1A de travailler sur un an minimum aux cotes d'enseignants chercheurs sur une thematique de recherche.
+Ces travaux ont été réalisés dans le cadre d'un monitorat recherche, dispositif permettant a un étudiant en 1A de travailler sur un an minimum aux côtés d'enseignants chercheurs sur une thématique de recherche.
