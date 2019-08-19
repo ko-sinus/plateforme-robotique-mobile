@@ -1,17 +1,23 @@
 <?xml version="1.0" ?>
 <robot name="prm" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+  <!--Raccourcis - similaires a des variabls auxquelles on assigne des valeurs par defaut-->
+  
   <xacro:property name="cameraSize" value="0.05"/>
   <xacro:property name="cameraMass" value="0.00109"/>
   <xacro:include filename="$(find prm_description)/urdf/prm.gazebo" />
   <xacro:include filename="$(find prm_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find prm_description)/urdf/macros.xacro" />
 
+  
+<!--Description des objets-->
+
+  
 <!--Chassis-->
 
 <link name="base_link">
       <pose>0 0 0.1 0 0 0</pose>
-<inertial>
+  <inertial>
     <origin rpy="0 0 0" xyz="-0.083972 0.064624 0.0325"/>
     <mass value="8"/>
     <inertia ixx="0.000596" ixy="-0.0" ixz="-0.001035" iyy="0.000385" iyz="0.00104" izz="0.00087"/>
@@ -32,7 +38,8 @@
   </collision>
 </link>
 
-
+<!--Entretoises (les 4 sont representees en un fichier .stl pour plus de simplicite de manipulation)-->
+  
 <link name="Lien_PlaqueSup">
   <inertial>
     <origin rpy="0 0 0" xyz="-0.04000000000000001 0.060000000000000005 0.029999999999999992"/>
@@ -61,7 +68,8 @@
   <child link="Lien_PlaqueSup"/>
 </joint>
 
-
+<!--Plaque superieure-->
+  
 <link name="Plaque_sup">
   <inertial>
     <origin rpy="0 0 0" xyz="-0.04000000000000001 0.060807999999999994 0.0007500000000000007"/>
@@ -92,7 +100,7 @@
 
 
 
-<!--Sensors-->
+<!--Capteurs-->
 
 <!--RPLidar-->
 <link name="laser">
