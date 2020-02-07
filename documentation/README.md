@@ -12,3 +12,5 @@ Cours de l'Université Bar-Ilan, Israël (en anglais) : https://u.cs.biu.ac.il/~
 
 Tutoriel de prise en main d'un robot mobile a 4 roues d'Husarion (en anglais) : https://husarion.com/tutorials/
 
+Et l'excellente prise en main de navigation robotique : http://moorerobots.com/blog
+
