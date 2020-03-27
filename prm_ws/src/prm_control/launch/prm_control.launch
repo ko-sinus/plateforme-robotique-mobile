@@ -10,7 +10,9 @@
     type="spawner" respawn="false"
     output="screen" ns="/prm"
     args="joint_state_controller
-      mobile_base_controller"
+      mobile_base_controller
+      camera_pan_controller
+      camera_tilt_controller"
   />
 
   <!-- convert joint states to TF transforms for rviz, etc -->

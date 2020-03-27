@@ -191,9 +191,19 @@
   <child link="Pan"/>
   <axis xyz="9e-06 -0.0 -0.01"/>
   <limit effort='10000' lower="-1.570796" upper="1.570796" velocity="10000"/>
-    <dynamics damping="100.0" friction="200.0"/>
+    <dynamics damping="0.1" friction="0.2"/> <!--100.0 et 200.0-->
 </joint>
 
+<transmission name="$pan_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Pan_joint">
+        <hardwareInterface>EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="$panMotor">
+        <hardwareInterface>EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+</transmission>
 
 <!--Tourelle Camera - Rotation x-->
 <link name="Tilt">
@@ -224,9 +234,19 @@
   <child link="Tilt"/>
   <axis xyz="-0.01 -5.3e-05 -9e-06"/>
   <limit effort='1000' lower="-1.434661" upper="1.434661" velocity="100"/>
-    <dynamics damping="100.0" friction="200.0"/>
+    <dynamics damping="0.1" friction="0.2"/> <!--100.0 et 200.0-->
 </joint>
 
+<transmission name="$tilt_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Tilt_joint">
+        <hardwareInterface>EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="$tiltMotor">
+        <hardwareInterface>EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+</transmission>
 
 <!--Roues-->
 

@@ -29,6 +29,7 @@
 </gazebo>
 
 
+  <!--Controleur differentiel des roues-->
   <gazebo>
     <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
       <legacyMode>false</legacyMode>
@@ -73,7 +74,8 @@
       <minDepth value="0.0001" />
   </gazebo>
 
-
+  <!--Controleur tourelle camera-->
+  
 
 <gazebo reference="laser">
     <sensor type="gpu_ray" name="head_rplidar_sensor">
