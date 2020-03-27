@@ -74,7 +74,6 @@
       <minDepth value="0.0001" />
   </gazebo>
 
-  <!--Controleur tourelle camera-->
   
 
 <gazebo reference="laser">

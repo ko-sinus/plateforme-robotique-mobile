@@ -25,6 +25,12 @@ http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
 Erreur avec rviz: installer
 sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui ros-kinetic-robot-state-publisher
 
+Erreur Gmapping: installer
+sudo apt-get install ros-kinetic-gmapping
+
+Erreur teleop: installer
+sudo apt-get install ros-kinetic-turtlebot
+
 Transfert Ubuntu
 https://ubuntu-mate.community/t/is-there-a-ubuntu-mate-for-raspberry-pi-4/19943/4
 
@@ -64,6 +70,9 @@ Exemple connection ROS:
 https://github.com/mktk1117/six_wheel_robot/wiki/Communication-between-Raspberry-Pi-and-PC-(ROS)
 
 Mise en oeuvre --------------------------------------------
+
+Tutoriel complet:
+https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/robot-creation-first-ros-robot/
 
 Contrôleurs (utilisation du joint_position_controller pour la tourelle caméra):
 http://wiki.ros.org/ros_control

@@ -4,13 +4,15 @@
   <param name="/use_sim_time" value="true"/>
   <!--- Run gmapping -->
   <node pkg="gmapping" name="slam_gmapping" type="slam_gmapping" output="screen">
+
     <param name="delta" value="0.01"/>
     <param name="xmin" value="-20"/>
     <param name="xmax" value="20"/>
     <param name="ymin" value="-20"/>
     <param name="ymax" value="20"/>
-    <remap from="scan" to="prm/laser/scan"/>
+    <!--remap from="scan" to="prm/laser/scan"/-->
     <param name="base_frame" value="base_link" />
+    <param name="frame_id" value="base_scan" />
 
     <param name="linearUpdate" value="0.5"/>
     <param name="angularUpdate" value="0.436"/>
