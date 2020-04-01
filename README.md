@@ -8,4 +8,4 @@ Vous pouvez ainsi retrouver le workspace ROS et son tutoriel, les modèles CAO d
 Ce répertoire s'accompagne d'un dossier de conception et d'un dossier synthèse de travaux d'état de l'art sur la robotique mobile et ses problematiques.
 
 
-Ces travaux ont été réalisés dans le cadre d'un monitorat recherche, dispositif permettant a un étudiant en 1A de travailler sur un an minimum aux côtés d'enseignants chercheurs sur une thématique de recherche.
+Ces travaux ont été réalisés dans le cadre d'un monitorat recherche, dispositif pédagogique permettant a un étudiant en 1A de travailler sur un an minimum aux côtés d'enseignants chercheurs sur une thématique de recherche.
