@@ -1,0 +1,80 @@
+Installation de ROS --------------------------------------------
+
+Drivers Nvidia:
+Avant tout, tester si le pc s'éteint correctement. Si non, installer les drivers nvidia via:
+sudo apt-get install nvidia-384
+ou
+sudo apt-get install nvidia-430
+
+Tutorial GitHub:
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+ROS control:
+http://gazebosim.org/tutorials/?tut=ros_control
+
+ROS Ubuntu+Raspberry
+https://github.com/mktk1117/six_wheel_robot/wiki/Communication-between-Raspberry-Pi-and-PC-(ROS)
+
+ROS:
+http://wiki.ros.org/kinetic/Installation/Ubuntu (installer ros-kinetic-ros-base)
+
+Gazebo9 (seulement sur ordinateur?):
+https://medium.com/@abhiksingla10/setting-up-ros-kinetic-and-gazebo-8-or-9-70f2231af21a
+http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
+
+Erreur avec rviz: installer
+sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui ros-kinetic-robot-state-publisher
+
+Erreur Gmapping: installer
+sudo apt-get install ros-kinetic-gmapping
+
+Erreur teleop: installer
+sudo apt-get install ros-kinetic-turtlebot
+
+Transfert Ubuntu
+https://ubuntu-mate.community/t/is-there-a-ubuntu-mate-for-raspberry-pi-4/19943/4
+
+Puis changer cmdline.txt (dans /boot) en
+dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+
+PARTUUID (pas nécessaire/possible?)
+(https://www.raspberrypi.org/forums/viewtopic.php?t=105868
+https://raspberrypi.stackexchange.com/questions/75027/whats-the-difference-between-uuid-and-partuuid)
+
+Connecter carte SD
+sudo apt-get install --reinstall udisks2
+sudo reboot
+
+Connection USB (problème de câble)
+(https://www.raspberrypi.org/forums/viewtopic.php?t=160400
+http://pci-ids.ucw.cz/
+https://www.raspberrypi.org/forums/viewtopic.php?t=168559)
+
+Plusieurs terminaux:
+https://askubuntu.com/questions/332104/open-another-terminal-window-with-the-same-ssh-session-as-original-window
+
+SSH:
+https://www.youtube.com/watch?v=8qleH35Kgjk
+
+https://thepihut.com/blogs/raspberry-pi-tutorials/19668676-renaming-your-raspberry-pi-the-hostname
+etape 1: modification réseau -> nouvelle connection -> vers ordinateur (IPv4) et ignorer (IPv6)
+etape 2: hostname -I, puis avec l'ip trouvée faire sudo nmap -sP -PI -PT *IP*/24
+etape 3: faire sudo nano /media/magnus/PI_ROOT/etc/hostname et noter le nom
+etape 4: sudo ssh prmraspi@*IP trouvée avec nmap* et entrer le MdP (ici sudo ssh -X prmraspi@10.42.0.201)
+etape 5: gnome-terminal & pour avoir plusieurs terminaux
+
+Firmware lidar (Rpi):
+Ne pas s'embêter avec si ttyUSB0 n'est pas detecté, prendre un câble qui marche...
+
+Exemple connection ROS:
+https://github.com/mktk1117/six_wheel_robot/wiki/Communication-between-Raspberry-Pi-and-PC-(ROS)
+
+Mise en oeuvre --------------------------------------------
+
+Tutoriel complet:
+https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/robot-creation-first-ros-robot/
+
+Contrôleurs (utilisation du joint_position_controller pour la tourelle caméra):
+http://wiki.ros.org/ros_control
+http://gazebosim.org/tutorials/?tut=ros_control
+https://www.theconstructsim.com/ros-qa-070-moving-joints-gazebo-simple-example/
