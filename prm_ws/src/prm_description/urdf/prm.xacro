@@ -28,8 +28,8 @@
     <geometry>
       <mesh filename="package://prm_description/meshes/base_link_m-binary.stl"/>
     </geometry>
-
   </visual>
+
   <collision>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <geometry>
