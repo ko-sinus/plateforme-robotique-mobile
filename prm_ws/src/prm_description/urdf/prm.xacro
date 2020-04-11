@@ -380,7 +380,7 @@
 <!--Joint Camera-->
 
 <joint name="rigid_camera" type="fixed">
-  <origin rpy="0 0 0" xyz="0.011996 -0.02123 0.012078"/>
+  <origin rpy="0 0 -1.57" xyz="0.011996 -0.02123 0.012078"/> <!--rpy="0 0 -1.57" ajuste l'orientation de la camera-->
   <parent link="tilt_1"/>
   <child link="camera_1"/>
 </joint>
