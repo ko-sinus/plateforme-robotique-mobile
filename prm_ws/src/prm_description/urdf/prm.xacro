@@ -212,13 +212,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.112 -0.130239 -0.112908"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/laser_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://prm_description/meshes/laser_1.stl"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.112 -0.130239 -0.112908"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/laser_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://prm_description/meshes/laser_1.stl"/>
     </geometry>
   </collision>
 </link>
