@@ -31,6 +31,9 @@ sudo apt-get install ros-kinetic-gmapping
 Erreur teleop: installer
 sudo apt-get install ros-kinetic-turtlebot
 
+Navigation autonome: installer
+sudo apt-get install ros-kinetic-map-server ros-kinetic-amcl ros-kinetic-move-base
+
 Transfert Ubuntu
 https://ubuntu-mate.community/t/is-there-a-ubuntu-mate-for-raspberry-pi-4/19943/4
 
