@@ -25,14 +25,14 @@
   <visual>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/base_link.stl"/>
+      <mesh filename="package://prm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
 
   <collision>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/base_link.stl"/>
+      <mesh filename="package://prm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -106,13 +106,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.029 -0.002194 -0.032408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/left_wheel_1.stl"/>
+      <mesh filename="package://prm_description/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.029 -0.002194 -0.032408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/left_wheel_1.stl"/>
+      <mesh filename="package://prm_description/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
       <surface>
         <friction>
@@ -136,13 +136,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.139 -0.002194 -0.032408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/right_wheel_3.stl"/>
+      <mesh filename="package://prm_description/meshes/right_wheel_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.139 -0.002194 -0.032408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/right_wheel_3.stl"/>
+      <mesh filename="package://prm_description/meshes/right_wheel_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
       <surface>
         <friction>
@@ -167,14 +167,14 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.044 -0.008694 -0.051408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/lien_plaque_sup_1.stl"/>
+      <mesh filename="package://prm_description/meshes/lien_plaque_sup_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
 
   <collision>
     <origin rpy="0 0 0" xyz="0.044 -0.008694 -0.051408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/lien_plaque_sup_1.stl"/>
+      <mesh filename="package://prm_description/meshes/lien_plaque_sup_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -190,13 +190,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.044 -0.008694 -0.111408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/plaque_sup_1.stl"/>
+      <mesh filename="package://prm_description/meshes/plaque_sup_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.044 -0.008694 -0.111408"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/plaque_sup_1.stl"/>
+      <mesh filename="package://prm_description/meshes/plaque_sup_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -212,13 +212,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.112 -0.130239 -0.112908"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/laser_1.stl"/>
+      <mesh filename="package://prm_description/meshes/laser_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.112 -0.130239 -0.112908"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/laser_1.stl"/>
+      <mesh filename="package://prm_description/meshes/laser_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -234,13 +234,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.093603 0.066257 -0.082423"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/tilt_1.stl"/>
+      <mesh filename="package://prm_description/meshes/tilt_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.093603 0.066257 -0.082423"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/tilt_1.stl"/>
+      <mesh filename="package://prm_description/meshes/tilt_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -256,13 +256,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.081607 0.087487 -0.094501"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/camera_1.stl"/>
+      <mesh filename="package://prm_description/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.081607 0.087487 -0.094501"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/camera_1.stl"/>
+      <mesh filename="package://prm_description/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -278,13 +278,13 @@
   <visual>
     <origin rpy="0 0 0" xyz="0.084018 0.039106 -0.051732"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/pan_1.stl"/>
+      <mesh filename="package://prm_description/meshes/pan_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
     <origin rpy="0 0 0" xyz="0.084018 0.039106 -0.051732"/>
     <geometry>
-      <mesh filename="package://prm_description/meshes/pan_1.stl"/>
+      <mesh filename="package://prm_description/meshes/pan_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
